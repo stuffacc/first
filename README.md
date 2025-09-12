@@ -2,7 +2,7 @@
 [ФОТО](https://github.com/stuffacc/first/blob/main/1.png)
 
 # 2
-[ФОТО](https://github.com/stuffacc/first/blob/main/2.png)
+[ФОТО](https://github.com/stuffacc/first/blob/main/2_2.png)
 
 [CODE](https://github.com/stuffacc/first/blob/main/2.py)
 
