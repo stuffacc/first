@@ -1,19 +1,12 @@
-arr = [i for i in range(2, 10**5)]
+# Решето Эратосфена 2.0
 
-
-def div(x):
-    for i in range(2, int(x ** 0.5) + 1):
-        if x % i == 0:
-            return False
-
-    return True
-
+arr = [True for _ in range(0, 10 ** 7)]
+arr[0], arr[1] = False, False
 
 for i in range(len(arr)):
-    curr = arr[i]
-    if curr != 0 and div(curr):
-        for j in range(i + curr, len(arr), curr):
-            arr[j] = 0
+    if arr[i]:
+        for j in range(i**2, len(arr), i):
+            arr[j] = False
 
-arr = [i for i in arr if i != 0]
+arr = [i for i in range(len(arr)) if arr[i]]
 print(arr)
