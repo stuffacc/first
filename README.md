@@ -19,3 +19,8 @@
 
 
 
+## C
+# 1
+[ФОТО](https://github.com/stuffacc/first/blob/main/c1.png)
+
+[CODE](https://github.com/stuffacc/first/blob/main/program.c)
